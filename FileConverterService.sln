@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileConverterService", "FileConverterService\FileConverterService.csproj", "{4EC2A187-C1D4-460C-A142-A49D767B7CDE}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F5D119
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsService\WindowsService.csproj", "{D6DA7F70-6E01-482A-999E-EE806889773C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,8 +24,15 @@ Global
 		{4EC2A187-C1D4-460C-A142-A49D767B7CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EC2A187-C1D4-460C-A142-A49D767B7CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EC2A187-C1D4-460C-A142-A49D767B7CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DA7F70-6E01-482A-999E-EE806889773C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DA7F70-6E01-482A-999E-EE806889773C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DA7F70-6E01-482A-999E-EE806889773C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DA7F70-6E01-482A-999E-EE806889773C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A6BA636-F034-4C66-A907-8FDA697EDB26}
 	EndGlobalSection
 EndGlobal
